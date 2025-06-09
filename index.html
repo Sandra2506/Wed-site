@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    
+    <div class="header-top">
+      <div class="burger-icon">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </div>
+      <nav class="header-menu">
+        <a href="#">О нас</a>
+        <a href="#">Доставка и оплата</a>
+        <a href="#">Блог</a>
+      </nav>
+      <img src="logo.png" alt="Premier" class="logo-img">
+      
+      <div class="header-contacts">
+        <span class="header-phone">+7 999 123-45-67</span>
+        <button class="header-callback">Обратный звонок</button>
+      </div>
+    </div>
+    <div class="header-controls">
+      <button class="catalog-btn control-block"><span class="catalog-icon">&#9776;</span> Каталог</button>
+      <div class="nav-tabs control-block">
+        <a href="#" class="tab">Бренды</a>
+        <a href="#" class="tab">Акции</a>
+        <a href="#" class="tab">Обучение</a>
+        <a href="#" class="tab">Распродажа</a>
+      </div>
+      <div class="header-search control-block">
+        <svg class="search-icon" width="22" height="22" fill="none" stroke="#bdbdbd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="7"/><line x1="15" y1="15" x2="20" y2="20"/></svg>
+        <input type="text" placeholder="Поиск">
+      </div>
+      <div class="header-icons control-block">
+        <span class="icon">
+          <svg width="24" height="24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21C12 21 4 13.5 4 8.5C4 5.5 6.5 3 9.5 3C11.24 3 12.91 4.01 13.5 5.09C14.09 4.01 15.76 3 17.5 3C20.5 3 23 5.5 23 8.5C23 13.5 15 21 12 21Z"/></svg>
+          <span class="icon-count right">0</span>
+        </span>
+        <span class="icon">
+          <svg width="24" height="24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M16 10V6M8 10V6"/></svg>
+          <span class="icon-count right">0</span>
+        </span>
+        <span class="icon">
+          <svg width="24" height="24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2"/></svg>
+        </span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <nav class="breadcrumbs">Главная / Дистрибьюторы</nav>
+   
+    <section class="banner-slider-section">
+      <div class="banner-slider-container">
+        <div class="banner-slide">
+          <div class="banner-img-wrap">
+            <img src="Rectangle 1.png" alt="Баннер 1" class="banner-img">
+            <div class="banner-content">
+              <h1>С нами выгодно работать:<br>обучаем, помогаем продавать</h1>
+            </div>
+            <p class="banner-bottom-text">Специальные оптовые цены<br>для партнеров</p>
+          </div>
+        </div>
+        <div class="banner-slide">
+          <div class="banner-img-wrap">
+            <img src="2.jpg" alt="Баннер 2" class="banner-img">
+            <div class="banner-content">
+              <h1>Профессиональное обучение<br>и сертификация</h1>
+            </div>
+            <p class="banner-bottom-text">Бесплатные вебинары и мастер-классы<br>от ведущих экспертов</p>
+          </div>
+        </div>
+        <div class="banner-slide">
+          <div class="banner-img-wrap">
+            <img src="1.jpg" alt="Баннер 3" class="banner-img">
+            <div class="banner-content">
+              <h1>Индивидуальный подход<br>к каждому партнеру</h1>
+            </div>
+            <p class="banner-bottom-text">Персональный менеджер и поддержка<br>24/7</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+    <section class="benefits-section">
+      <div class="container">
+        <h3>Вы получаете</h3>
+        <div class="benefits-list" id="benefits-list"></div>
+        <form id="benefit-form" class="benefit-form">
+          <input type="text" id="benefit-title" placeholder="Название" required>
+          <textarea id="benefit-text" placeholder="Текст" required></textarea>
+          <button type="submit">Добавить</button>
+        </form>
+      </div>
+    </section>
+    <section class="map-section">
+      <div class="map-wrap">
+        <img src="Rectangle 46.png" alt="Карта" class="map-img">
+        <img src="map_pin.png" alt="Маркер" class="map-marker">
+      </div>
+    </section>
+    <section class="banner2-section">
+      <img src="Group 68.png" alt="Баннер 2" class="banner2-img">
+      <h2 class="banner2-title">Получите коммерческое предложение</h2>
+      <p class="banner2-text">500+ эффективных препаратов всегда в наличии</p>
+      <a href="#" class="banner2-button">Стать дистрибьютором</a>
+    </section>
+    <section class="consult-form-section">
+      <form class="consult-form-pixel" autocomplete="off">
+        <div class="consult-title">Оставьте заявку<br>на бесплатную консультацию!</div>
+        <div class="consult-desc">Менеджер свяжется с вами и назначит удобное время</div>
+        <input type="text" class="consult-input name" placeholder="Имя" required>
+        <input type="tel" class="consult-input phone" placeholder="Телефон" required>
+        <label class="consult-checkbox-pixel" style="position:absolute;left:580px;top:170.5px;width:509.86px;height:18px;display:flex;align-items:center;">
+          <input type="checkbox" class="checkbox-pixel" required>
+          <span>Я согласен с условиями <a href="#">Политики конфиденциальности</a></span>
+        </label>
+        <button type="submit" class="consult-btn-pixel">Получить консультацию</button>
+      </form>
+    </section>
+
+    <section class="contacts-section">
+      <div class="contacts-container">
+        <div class="contacts-title">Контакты</div>
+        <div class="contacts-cols-wrapper">
+          <div class="contacts-col contacts-col-left">
+            <div class="contacts-label">Телефон и электронная почта</div>
+            <div class="contacts-phone">+7 984 199-79-99</div>
+            <div class="contacts-email">vladivostok@cosmetic-professional.ru</div>
+          </div>
+          <div class="contacts-col contacts-col-center">
+            <div class="contacts-label">Соцсети</div>
+            <div class="contacts-social-list">
+              <div class="contacts-social">
+                <img src="Logo 11.png" alt="Instagram" class="social-icon">
+                @medical_premier
+              </div>
+              <div class="contacts-social">
+                <img src="Logo 11.png" alt="Instagram" class="social-icon">
+                @vladivostok-premier
+              </div>
+            </div>
+          </div>
+          <div class="contacts-col contacts-col-right">
+            <div class="contacts-label" style="opacity:0;">Соцсети</div>
+            <div class="contacts-social-list">
+              <div class="contacts-social">
+                <img src="VK_Compact_Logo 2.png" alt="VK" class="social-icon">
+                @premier_russia
+              </div>
+              <div class="contacts-social">
+                <img src="Group 100.png" alt="WhatsApp" class="social-icon">
+                +7 984 199-79-99
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="connect-block-footer">
+        <div class="connect-title">Связаться с нами сейчас</div>
+        <div class="connect-social-icons">
+          <img src="Group 8.png" alt="WhatsApp" class="connect-icon">
+          <img src="Logo 8.png" alt="Telegram" class="connect-icon">
+          <img src="Logo 2.png" alt="Instagram" class="connect-icon"> 
+        </div>
+      </div>
+
+      
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-col-title">Косметология</div>
+          <ul>
+            <li><a href="#">Космецевтика для лица</a></li>
+            <li><a href="#">Космецевтика для тела</a></li>
+            <li><a href="#">Карбокситерапия</a></li>
+            <li><a href="#">Альгинатные и тканевые маски</a></li>
+            <li><a href="#">Биологически активные добавки</a></li>
+            <li><a href="#">Пилинги</a></li>
+            <li><a href="#">Солнцезащитные средства</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Медицина</div>
+          <ul>
+            <li><a href="#">Контурная пластика</a></li>
+            <li><a href="#">Сыворотки</a></li>
+            <li><a href="#">Ботулотоксины</a></li>
+            <li><a href="#">Тредлифтинг</a></li>
+            <li><a href="#">Плазмолифтинг</a></li>
+            <li><a href="#">Пилинги</a></li>
+            <li><a href="#">Аппараты</a></li>
+            <li><a href="#">Трихология</a></li>
+            <li><a href="#">Расходные материалы</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Компания</div>
+          <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Обучение</a></li>
+            <li><a href="#">Распродажа</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-col-contacts">
+          <div class="footer-col-title">Контакты</div>
+          <div class="footer-contact-info">
+            <div class="footer-phone-number">+7 999 123-45-67</div>
+            <button class="footer-callback-btn">Обратный звонок</button>
+            <div class="footer-email">info@premier-cosmetic.com</div>
+            <div class="footer-social-label">Наши соцсети</div>
+            <div class="footer-social-icons-bottom">
+              <img src="Logo 2.png" alt="Instagram" class="footer-social-icon">
+              <img src="Logo 8.png" alt="Telegram" class="footer-social-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © 2023 Premier — космецевтика и инъекционные <br>
+          препараты для косметологов
+        </div>
+        <div class="footer-payment-methods">
+          Принимаем к оплате
+          <img src="MIR.png" alt="МИР" class="payment-icon">
+          <img src="Visa.png" alt="Visa" class="payment-icon">
+          <img src="Mastercard.png" alt="Mastercard" class="payment-icon">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Мобильное меню (скрыто по умолчанию, видно на 320px) -->
+  <div class="mobile-footer">
+    <a href="#" class="mobile-footer-item">
+      <img src="Frame-6.png" alt="Каталог">
+      <span>Каталог</span>
+    </a>
+    <a href="#" class="mobile-footer-item">
+      <img src="Frame.png" alt="Поиск">
+      <span>Поиск</span>
+    </a>
+    <a href="#" class="mobile-footer-item">
+      <img src="Frame-3.png" alt="Избранное">
+      <span>Избранное</span>
+    </a>
+    <a href="#" class="mobile-footer-item">
+      <img src="Frame-4.png" alt="Корзина">
+      <span>Корзина</span>
+    </a>
+    <a href="#" class="mobile-footer-item">
+      <img src="Frame-5.png" alt="Профиль">
+      <span>Профиль</span>
+    </a>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.banner2-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.banner2-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner2-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 850px;
+  height: 110px;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+
+.banner2-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 446px;
+  height: 56px;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+
+.banner2-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 255px;
+  height: 60px;
+  background-color: black;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.banner2-button:hover {
+  background-color: #333;
+} 
