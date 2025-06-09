@@ -16,18 +16,8 @@
 # Клонируем репозиторий
 git clone https://github.com/username/repo.git
 
-# Переходим в директорию проекта
-cd repo
-
-# Устанавливаем зависимости
-npm install
 ```
 
-## Запуск
-
-```bash
-npm start
-```
 
 ## Технологии
 
